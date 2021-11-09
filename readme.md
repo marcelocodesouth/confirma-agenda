@@ -37,5 +37,8 @@
 		VsCode para escrever o código do projeto;
 </pre>
 
-
+<pre>
+	Após clonar o projeto é necessário rodar o update do Composer pelo Power shell
+	$composer update
+</pre>
 
