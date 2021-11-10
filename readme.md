@@ -14,7 +14,7 @@
 
     Jean Marcelo Capello, RA 2014899 
 
-    João de Moraes, RA2000171 
+    João de Moraes Sant Ana, RA2000171 
 
     Simone Ramos de Almeida, RA 2005461 
 </pre>
@@ -37,5 +37,8 @@
 		VsCode para escrever o código do projeto;
 </pre>
 
-
+<pre>
+	Após clonar o projeto é necessário rodar o update do Composer pelo Power shell
+	$composer update
+</pre>
 
