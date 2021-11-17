@@ -13,8 +13,12 @@ class PacienteController extends AbstractController
      */
     public function index(): Response
     {
+        $paciente = new Paciente();
+
+        $this->createForm(PacienteType::class, $paciente);
+
         return $this->render('paciente/index.html.twig', [
-            'controller_name' => 'PacienteController',
+            'form' => $form->createView()
         ]);
     }
 }
